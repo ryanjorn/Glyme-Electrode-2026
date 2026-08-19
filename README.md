@@ -1,0 +1,4 @@
+# Glyme-Electrode-2026
+Lammps input files for simulations of a glyme electrolyte at either a graphite interface or a NaF surface.
+
+This directory contains the input files related to simulations of 1.0M sodium triflate disolved in diglyme, triglyme, and tetraglyme at graphite and NaF(100) surfaces.  The graphite simulations require a version of LAMMPS compiled with the image charge code from the Voth group at the University of Chicago while the NaF simulations can be run with any recent version of LAMMPS.  The directories are labeled according to the solvent and surface of interest (Diglyme_Graphite, Triglyme_Graphite, Tetraglyme_Graphite, Diglyme_NaF, and Triglyme_NaF) and contain both the LAMMPS input file (.in) containing the force field information and a LAMMPS data file (.lammps.data) containing the definitions of all the bonding topology elements.
